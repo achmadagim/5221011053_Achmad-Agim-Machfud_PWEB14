@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('images/Background1.png'); /* Ganti dengan path gambar lokal Anda */
+    background-size: cover; /* Menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+}
+
+header {
+    background-color: #333; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    padding: 20px; /* Padding untuk header */
+    text-align: center; /* Memusatkan teks */
+}
+
+.btn-outline-light {
+    border-color: #333; /* Warna border */
+    color: #333; /* Warna teks */
+}
+
+.btn-outline-light:hover {
+    background-color: #333; /* Warna latar belakang saat hover */
+    border-color: #333; /* Warna border saat hover */
+    color: #fff; /* Warna teks saat hover */
+}
+
+.table-dark {
+    background-color: #222; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #444; /* Warna latar belakang saat hover */
+}
